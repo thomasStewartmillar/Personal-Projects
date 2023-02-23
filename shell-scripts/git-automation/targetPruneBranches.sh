@@ -1,12 +1,9 @@
 #!/bin/zsh
 
-# Define colours
-BLUE="\033[0;34m"
-GREEN="\033[0;32m"
-RED="\033[0;31m"
-RESET="\033[0m"
+FORMAT=$(cd `dirname $0` && pwd)
+source ${FORMAT}/formatting.sh
 
-# Get directory name from command line argument
+# Get target directory name from command line argument
 if [ -z "$1" ]; then
   echo "${RED}Error: Please provide a directory name.${RESET}"
   exit 1
