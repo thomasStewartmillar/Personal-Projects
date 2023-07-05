@@ -1,0 +1,43 @@
+# Compiled source code
+*.pyc
+*.pyo
+*.class
+
+# Dependency directories
+venv/
+node_modules/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled binaries or executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+
+# Configuration files with sensitive data
+config.ini
+secrets.yaml
+
+# Temporary files
+*.tmp
+*.bak
+
+# Data files
+*.json

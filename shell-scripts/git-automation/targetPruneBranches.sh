@@ -38,7 +38,7 @@ if [ -z "$targetBranches" ] || [ $(echo "$targetBranches" | wc -l) -le 1 ]; then
   echo "${RED}No valid branches to delete - Exiting.${RESET}"
   exit 0
 fi
-
+ 
 # Ask for confirmation before deleting branches
 echo "\nPreparing to remove branches on $currentRepo"
 echo "Are you sure you want to delete these branches? (y/n)"
